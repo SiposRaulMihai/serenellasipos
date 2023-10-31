@@ -1,0 +1,74 @@
+body {
+  background-color: #f0f4ec;
+}
+
+img.logo {
+  width: 400px; /* Set the initial size of the logo */
+}
+
+@media (max-width: 600px) {
+  /* Apply styles when the screen width is 600px or less */
+  img.logo {
+    width: 200px; /* Set a smaller size for smaller screens */
+  }
+}
+
+a {
+  color: #855f6e;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+
+.nav-container {
+  margin-left: auto; /* Push the navigation links to the right */
+}
+
+.nav-container a {
+  margin: 0 10px; /* Add space between links */
+  color: #855f6e;
+}
+
+.logo {
+  max-height: 3000px; /* Set a maximum height for the logo */
+}
+
+.rectangle {
+  top: 20px;
+  position: relative;
+  border-radius: 30px;
+  background-color: #855f6e;
+  width: 100%;
+  height: 315px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.despremineM {
+  position: relative;
+  display: flex;
+  font-family: Inter;
+  color: #fafff5;
+  left: 20px;
+}
+.despremine {
+  color: #fafff5;
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 10 30px;
+  font-size: inherit;
+  font-family: inherit;
+}
+.picture {
+  position: relative;
+  display: flex;
+  top: 25px;
+  width: 270px;
+  height: 270px;
+  border-radius: 10%;
+  background-color: #fafff5;
+  align-items: flex-end;
+}
